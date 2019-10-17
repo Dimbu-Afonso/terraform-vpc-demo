@@ -1,3 +1,3 @@
 output "id" {
-    value = "${var.vpc_cidr_range}"
+    value = aws_vpc.main.id
 }
